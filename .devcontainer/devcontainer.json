@@ -1,4 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "الصورة": "mcr.microsoft.com/devcontainers/universal:2",
+  "الميزات": {},
+  "الاسم": "بيئة تطوير توزيعة لينكس العربية",
+  "الوصف": "بيئة تطوير مخصصة لتوزيعة لينكس العربية التجريبية"
 }
