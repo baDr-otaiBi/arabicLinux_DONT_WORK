@@ -1,0 +1,44 @@
+رخصة MIT / MIT License
+
+حقوق النشر © ٢٠٢٦
+Copyright © 2026
+
+يُمنح بموجب هذا الإذن، مجانًا، لأي شخص يحصل على نسخة من هذا البرنامج
+والملفات الوثائقية المرتبطة به، الحق في التعامل مع البرنامج دون قيود، بما في 
+ذلك على سبيل المثال لا الحصر حقوق الاستخدام والنسخ والتعديل والدمج والنشر 
+والتوزيع والترخيص من الباطن و/أو بيع نسخ من البرنامج، والسماح للأشخاص الذين 
+يتم توفير البرنامج لهم بذلك، وفقًا للشروط التالية:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files, to deal in the Software
+without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+يجب تضمين إشعار حقوق النشر أعلاه وإشعار الإذن هذا في جميع النسخ أو الأجزاء 
+الجوهرية من البرنامج.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+يتم توفير البرنامج "كما هو"، دون ضمان من أي نوع، صريحًا أو ضمنيًا، بما في ذلك 
+على سبيل المثال لا الحصر ضمانات القابلية للتسويق والملاءمة لغرض معين وعدم 
+الانتهاك. في أي حال من الأحوال، لا يتحمل المؤلفون أو أصحاب حقوق النشر أي 
+مسؤولية عن أي مطالبة أو أضرار أو مسؤولية أخرى، سواء في إجراء تعاقدي أو ضرر 
+أو غير ذلك، ناشئة عن أو بسبب أو فيما يتعلق بالبرنامج أو استخدامه أو تعاملات 
+أخرى في البرنامج.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+⚠️ تحذير / Warning:
+هذا مشروع تجريبي وتعليمي فقط، وليس للاستخدام في بيئات الإنتاج.
+This is an experimental and educational project only, not for production use.

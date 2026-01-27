@@ -1,4 +1,5 @@
 {
+  "name": "بيئة تطوير توزيعة لينكس العربية",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {}
 }
