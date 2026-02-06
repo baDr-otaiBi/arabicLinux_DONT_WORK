@@ -31,16 +31,16 @@ earad_risalah() {
     
     case "$alnaw" in
         "معلومات")
-            echo "👤 [معلومات] $alrisalah"
+            echo "[معلومات] $alrisalah"
             ;;
         "نجاح")
-            echo "✅ [نجاح] $alrisalah"
+            echo "[نجاح] $alrisalah"
             ;;
         "خطأ")
-            echo "❌ [خطأ] $alrisalah"
+            echo "[خطأ] $alrisalah"
             ;;
         "تحذير")
-            echo "⚠️  [تحذير] $alrisalah"
+            echo "[تحذير] $alrisalah"
             ;;
     esac
 }
@@ -48,7 +48,7 @@ earad_risalah() {
 # دالة عرض المساعدة
 earad_almusaeadah() {
     echo "═══════════════════════════════════════════════════════════"
-    echo "           👥 برنامج إدارة المستخدمين"
+    echo "           برنامج إدارة المستخدمين"
     echo "═══════════════════════════════════════════════════════════"
     echo ""
     echo "الاستخدام:"
@@ -112,7 +112,7 @@ EOF
     mkdir -p "$masar_almustakhdimin/مجلدات/$ism_almustakhdim"
     
     earad_risalah "نجاح" "تم إضافة المستخدم '$ism_almustakhdim' بنجاح"
-    echo "  📁 المجلد الشخصي: $masar_almustakhdimin/مجلدات/$ism_almustakhdim"
+    echo "  المجلد الشخصي: $masar_almustakhdimin/مجلدات/$ism_almustakhdim"
 }
 
 # دالة حذف مستخدم
@@ -164,11 +164,11 @@ earad_maelumat_almustakhdim() {
     # تحميل معلومات المستخدم
     source "$masar_almustakhdimin/$ism_almustakhdim.conf"
     
-    echo "  👤 اسم المستخدم: $ism_almustakhdim"
-    echo "  📅 تاريخ الإنشاء: $tarikh_alinsha"
-    echo "  👥 المجموعة: $almajmueat"
-    echo "  🔐 الصلاحيات: $alsalahiat"
-    echo "  ✓ الحالة: $alhalah"
+    echo "  اسم المستخدم: $ism_almustakhdim"
+    echo "  تاريخ الإنشاء: $tarikh_alinsha"
+    echo "  المجموعة: $almajmueat"
+    echo "  الصلاحيات: $alsalahiat"
+    echo "  الحالة: $alhalah"
     echo ""
 }
 
@@ -183,7 +183,7 @@ earad_qaeimah_almustakhdimin() {
     for milaf in "$masar_almustakhdimin"/*.conf; do
         if [ -f "$milaf" ]; then
             source "$milaf"
-            echo "  👤 $ism_almustakhdim - $almajmueat ($alhalah)"
+            echo "  $ism_almustakhdim - $almajmueat ($alhalah)"
             ((eadad++))
         fi
     done
